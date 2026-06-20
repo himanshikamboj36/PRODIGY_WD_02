@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue Neon Stopwatch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <p>PRECISION TIMER</p>
+        <h2>Stopwatch</h2>
+    </div>
+
+    <div class="timer-card">
+        <div class="glow"></div>
+
+        <div id="display">
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+
+        <div id="milliseconds">.00</div>
+
+        <div id="status">READY</div>
+    </div>
+
+    <div class="controls">
+        <button id="start">START</button>
+        <button id="pause">PAUSE</button>
+        <button id="lap">LAP</button>
+        <button id="reset">RESET</button>
+    </div>
+
+    <div class="lap-container">
+        <div class="lap-header">
+            <span>LAPS</span>
+        </div>
+
+        <ul id="laps"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
